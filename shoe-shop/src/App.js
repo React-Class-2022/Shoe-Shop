@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Product from '../src/components/products/product'
 
-const App =()=> {
-  return (
-   <div>
-     <p>Hello World</p>
-   </div>
-  );
+const App=()=>
+{
+    return(
+      <div >
+       
+           <Product />
+            
+      </div>
+    );
 }
 
 export default App;
