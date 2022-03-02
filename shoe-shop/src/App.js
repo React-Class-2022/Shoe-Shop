@@ -1,12 +1,10 @@
 import Product from '../src/components/products/product'
-
+const data = "i am a data";
 const App=()=>
 {
     return(
       <div >
-       
-           <Product />
-           <h1>Hello World</h1>
+             <h1>{data}</h1>
       </div>
     );
 }
